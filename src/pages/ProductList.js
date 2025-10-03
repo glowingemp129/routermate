@@ -6,6 +6,8 @@ export const ProductList = () => {
     console.log(searchParams.get("keyword"), searchParams.get("instock"), searchParams.get("limit"));
     console.log(location);
     return (
-        <div className="productList">ProductList</div>
+        <main>
+            <div className="productList">ProductList</div>
+        </main>
     )
 }

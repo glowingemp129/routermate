@@ -5,6 +5,8 @@ export const ProductDetail = () => {
     console.log(params);
 
     return (
-        <div>ProductDetail - {params.id}</div>
+        <main>
+            <div>ProductDetail - {params.id}</div>
+        </main>
     )
 }
